@@ -1,103 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>2ndSON | Projects</title>
 
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-  <!-- NAVIGATION -->
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
   <header class="nav-container">
+
     <div class="logo">
-      <img src="2ndSon.jpg" alt="2ndSON Logo" class="logo-img"/>
+
+      <img
+        src="2ndSon.jpg"
+        alt="2ndSON Logo"
+        class="logo-img"
+      />
+
     </div>
+
 
     <nav id="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html" class="active">Projects</a>
-      <a href="skills.html">Skills</a>
-      <a href="contact.html">Contact</a>
-    </nav>
 
-    <div class="hamburger" id="hamburger">
+      <a href="index.html">
+        Home
+      </a>
+      <a href="about.html">
+        About
+      </a>
+      <a
+        href="projects.html"
+        class="active"
+      >
+        Projects
+      </a>
+      <a href="skills.html">
+        Skills
+      </a>
+      <a href="contact.html">
+        Contact
+      </a>
+    </nav>
+    <!-- MOBILE MENU -->
+
+    <div
+      class="hamburger"
+      id="hamburger"
+    >
+
       <span></span>
       <span></span>
       <span></span>
+
     </div>
+
   </header>
 
-  <!-- HERO -->
+
+
+  <!-- =========================
+       PAGE HERO
+  ========================== -->
+
   <section class="page-hero fade-in">
-    <h1 class="glow-title" data-text="Projects Lab"></h1>
+
+    <h1 class="glow-title">
+      Projects Lab
+    </h1>
+
     <p class="subtitle">
       A collection of systems, security labs, and experimental architectures.
     </p>
+
   </section>
 
-  <!-- PROJECT GRID -->
+
+
+  <!-- =========================
+       PROJECT GRID
+  ========================== -->
+
   <section class="content-section">
 
     <div class="projects-grid">
 
-      <div class="glass-card project-card reveal">
-        <h3>Secure Network Lab</h3>
-        <p>Simulated enterprise network with segmentation, firewall rules, and monitoring setup.</p>
-        <div class="tags">
-          <span>Networking</span>
-          <span>Security</span>
-        </div>
-      </div>
+
+      <!-- =========================
+           PROJECT 1
+           INVENTORY MANAGEMENT
+      ========================== -->
 
       <div class="glass-card project-card reveal">
-        <h3>Virtualized Environment</h3>
-        <p>Multi-VM lab for testing OS-level configurations and isolated system experiments.</p>
+
+        <!-- Project Image -->
+
+        <a
+          href="https://projinventory.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <img
+            src="inventory.png"
+            alt="Inventory Management System Screenshot"
+            class="project-image"
+          >
+
+        </a>
+
+
+        <!-- Project Title -->
+
+        <h3>
+          Inventory Management System
+        </h3>
+
+
+        <!-- Description -->
+
+        <p>
+          An interactive inventory management system featuring
+          real-time stock tracking, product catalog management,
+          and browser local-storage persistence.
+        </p>
+
+
+        <!-- Tags -->
+
         <div class="tags">
-          <span>Virtualization</span>
-          <span>Linux</span>
+
+          <span>JavaScript</span>
+          <span>Web App</span>
+          <span>UI/UX</span>
+
         </div>
+
+
+        <!-- Project Button -->
+
+        <p class="project-link-wrapper">
+
+          <a
+            href="https://projinventory.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            Open Project
+          </a>
+
+        </p>
+
       </div>
 
-      <div class="glass-card project-card reveal">
-        <h3>Security Monitoring System</h3>
-        <p>Basic intrusion detection concept with log analysis and alert simulation.</p>
-        <div class="tags">
-          <span>Cybersecurity</span>
-          <span>Logs</span>
-        </div>
-      </div>
+
+
+      <!-- =========================
+           PROJECT 2
+           PASSTRACK
+      ========================== -->
 
       <div class="glass-card project-card reveal">
-        <h3>System Architecture Model</h3>
-        <p>Designed scalable architecture blueprint for distributed applications.</p>
+
+        <!-- Project Image -->
+
+        <a
+          href="https://passtrack1.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <img
+            src="passtrack.png"
+            alt="Attendance Tracking System Screenshot"
+            class="project-image"
+          >
+
+        </a>
+
+
+        <!-- Project Title -->
+
+        <h3>
+          Attendance Tracking System
+        </h3>
+
+
+        <!-- Description -->
+
+        <p>
+          A zero-dependency multi-page attendance management
+          system built with pure HTML5, CSS3, and Vanilla JavaScript.
+          Features live shift tracking, automated punctuality tracking,
+          PIN security, and local state synchronization.
+        </p>
+
+
+        <!-- Tags -->
+
         <div class="tags">
-          <span>Architecture</span>
-          <span>Design</span>
+
+          <span>JavaScript</span>
+          <span>Web App</span>
+          <span>UI/UX</span>
+
         </div>
+
+
+        <!-- Project Button -->
+
+        <p class="project-link-wrapper">
+
+          <a
+            href="https://passtrack1.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            Open Project
+          </a>
+
+        </p>
+
       </div>
+
+
+
+      <!-- =========================
+           PROJECT 3
+           ESTATEHUB
+      ========================== -->
+
+      <div class="glass-card project-card reveal">
+
+        <!-- Project Image -->
+
+        <a
+          href="https://nestfindre.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <img
+            src="estatehub.png"
+            alt="EstateHub Real Estate Platform Screenshot"
+            class="project-image"
+          >
+
+        </a>
+
+
+        <!-- Project Title -->
+
+        <h3>
+          EstateHub
+        </h3>
+
+
+        <!-- Description -->
+
+        <p>
+          A real estate platform designed to simplify property
+          discovery and management, providing users with an
+          organized interface for browsing and exploring properties.
+        </p>
+
+
+        <!-- Tags -->
+
+        <div class="tags">
+
+          <span>JavaScript</span>
+          <span>Web App</span>
+          <span>Real Estate</span>
+
+        </div>
+
+
+        <!-- Project Button -->
+
+        <p class="project-link-wrapper">
+
+          <a
+            href="https://nestfindre.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            Open Project
+          </a>
+
+        </p>
+
+      </div>
+
+
+
+      <!-- =========================
+           PROJECT 4
+           RENTFLOW
+      ========================== -->
+
+      <div class="glass-card project-card reveal">
+
+        <!-- Project Image -->
+
+        <a
+          href="https://rentflow1.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <img
+            src="rentflow.png"
+            alt="RentFlow Property Management System Screenshot"
+            class="project-image"
+          >
+
+        </a>
+
+
+        <!-- Project Title -->
+
+        <h3>
+          RentFlow
+        </h3>
+
+
+        <!-- Description -->
+
+        <p>
+          A rental and property management system designed to
+          streamline property administration, tenant management,
+          and rental operations through a clean web interface.
+        </p>
+
+
+        <!-- Tags -->
+
+        <div class="tags">
+
+          <span>JavaScript</span>
+          <span>Web App</span>
+          <span>Property Management</span>
+
+        </div>
+
+
+        <!-- Project Button -->
+
+        <p class="project-link-wrapper">
+
+          <a
+            href="https://rentflow1.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            Open Project
+          </a>
+
+        </p>
+
+      </div>
+
 
     </div>
 
   </section>
 
-  <!-- FOOTER -->
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
   <footer class="footer">
-    <p>© 2026 2ndSON</p>
+
+    <p>
+      © 2026 2ndSON
+    </p>
+
+
     <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="skills.html">Skills</a>
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a href="skills.html">
+        Skills
+      </a>
+
+      <a href="contact.html">
+        Contact
+      </a>
+
     </div>
+
   </footer>
 
+
+
+  <!-- =========================
+       JAVASCRIPT
+  ========================== -->
+
   <script src="script.js"></script>
+
 </body>
+
 </html>
